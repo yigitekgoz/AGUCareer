@@ -6,7 +6,7 @@
 *  Copyright © 2018 [Company]. All rights reserved.
     */
 
-import 'package:agu_career/kayıt_ol_widget/kayıt_ol_widget.dart';
+import 'package:agu_career/kayit_ol_widget/kayit_ol_widget.dart';
 import 'package:agu_career/sifremi_unuttum_widget/sifremi_unuttum_widget.dart';
 import 'package:agu_career/values/values.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +14,7 @@ import 'package:flutter/material.dart';
 
 class GirisYapWidget extends StatelessWidget {
   
-  void onKayıtOlPressed(BuildContext context) => Navigator.push(context, MaterialPageRoute(builder: (context) => KayıtOlWidget()));
+  void onKayitOlPressed(BuildContext context) => Navigator.push(context, MaterialPageRoute(builder: (context) => KayitOlWidget()));
   
   void onButtonsLargeGreenPressed(BuildContext context) {
   
@@ -97,7 +97,7 @@ class GirisYapWidget extends StatelessWidget {
                             child: Opacity(
                               opacity: 0.6,
                               child: FlatButton(
-                                onPressed: () => this.onKayıtOlPressed(context),
+                                onPressed: () => this.onKayitOlPressed(context),
                                 color: Color.fromARGB(0, 0, 0, 0),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.all(Radius.circular(0)),

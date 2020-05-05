@@ -7,20 +7,20 @@
     */
 
 import 'package:agu_career/giris_yap_widget/giris_yap_widget.dart';
-import 'package:agu_career/kayıt_ol_widget/kayıt_ol_widget.dart';
+import 'package:agu_career/kayit_ol_widget/kayit_ol_widget.dart';
 import 'package:agu_career/values/values.dart';
 import 'package:flutter/material.dart';
 
 
 class HosgeldinWidget extends StatelessWidget {
-  
-  void onButtonPressed(BuildContext context) => Navigator.push(context, MaterialPageRoute(builder: (context) => KayıtOlWidget()));
-  
+
+  void onButtonPressed(BuildContext context) => Navigator.push(context, MaterialPageRoute(builder: (context) => KayitOlWidget()));
+
   void onButtonTwoPressed(BuildContext context) => Navigator.push(context, MaterialPageRoute(builder: (context) => GirisYapWidget()));
-  
+
   @override
   Widget build(BuildContext context) {
-  
+
     return Scaffold(
       body: Container(
         constraints: BoxConstraints.expand(),
@@ -39,12 +39,13 @@ class HosgeldinWidget extends StatelessWidget {
                   Positioned(
                     left: 0,
                     right: 0,
+
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                          width: 514,
-                          height: 914,
+                          width: 414,
+                          height: 900,
                           child: Image.asset(
                             "assets/images/background.png",
                             fit: BoxFit.cover,
