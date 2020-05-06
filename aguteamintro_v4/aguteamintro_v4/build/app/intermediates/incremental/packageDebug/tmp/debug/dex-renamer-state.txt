@@ -1,0 +1,4 @@
+#Thu May 07 02:33:59 EET 2020
+base.0=C\:\\Users\\tekgo\\Desktop\\aguteamintro_v4\\aguteamintro_v4\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
