@@ -38,7 +38,7 @@ class _NavDrawerState extends State<NavDrawer> {
                   Navigator.pop(context);
                 }),
             ListTile(
-                leading: Icon(Icons.calendar_today),
+                leading: Icon(Icons.date_range),
                 title: Text("Buluşma Ayarla"),
                 onTap: () {
                   Navigator.pop(context);
@@ -50,7 +50,7 @@ class _NavDrawerState extends State<NavDrawer> {
                   Navigator.pop(context);
                 }),
             ListTile(
-                leading: Icon(Icons.textsms),
+                leading: Icon(Icons.assignment),
                 title: Text("Anket Doldur"),
                 onTap: () {
                   Navigator.pop(context);
@@ -71,7 +71,7 @@ class _NavDrawerState extends State<NavDrawer> {
             Divider(),
             ListTile(
                 leading: Icon(Icons.settings),
-                title: Text("Bildirimleri Kapat"),
+                title: Text("Ayarlar"),
                 onTap: () {
                   Navigator.pop(context);
                 }),
