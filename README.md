@@ -1,6 +1,6 @@
 # AGU Career
 
-Abdullah Gül University Software Engineering project.
+Software Engineering Project
 
 ## Team Members
 - *Yiğit Can Tekgöz*
