@@ -1,4 +1,4 @@
-# AGU Career
+# TAŞINDIK >> https://github.com/seveneals
 
 Software Engineering Project
 
